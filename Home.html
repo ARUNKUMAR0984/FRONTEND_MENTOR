@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTEND-MENTOR</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header >
+        <h2 class="Title1">
+            <center>TECHKNIGHTS ASSOCIATION</center>
+        </h2>
+        <h3 class="PRESENTS">
+            <center>PRESENTS</center>
+        </h3>
+        <div class="Navi">
+            <center>
+                <a href="#About">ABOUT US</a>
+                <a href="#events">EVENT</a>
+                <a href="#Register">REGISTER</a>
+            </center>
+        </div>
+    </header>
+
+
+    <section id="About" style="background-color: rgb(133, 199, 150);">
+        <br>
+        <br>
+        <center class="About">
+            ABOUT US
+        </center>
+        <center>
+            <div class="Content_para">
+                <p style="font-style: normal; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;">
+                    Department of Computer Science and Business Systems <br>
+                    Presenting International Level Symposium on 5th October, 2024<br>
+                    "Towen Gen3"
+                    <br><br>
+                    We Have planned To Conduct Technical Events As Well As<br>
+                    Non-Technical Events with Exciting Prizes!!
+                </p>
+                <p style="font-weight: lighter; opacity: 0.5; font-size: 20px;">
+                    Techknights Association Welcomes You<br>
+                    To Explore A New Horizons >>
+                </p>
+
+                <p style="font-size: 30px;">
+                    <a href="" target="" style="margin-right: 15px;" class="social-icon">
+                        <i class="fab fa-instagram "></i>
+                    </a>
+                    <a href="" target="" style="margin-right: 15px;" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" target="" class="social-icon">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </p>
+                <br>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                    <i class="fas fa-calendar-alt"> 05/10/2024</i>
+                    <br><br>
+
+                    <i class="fas fa-clock    "> 9:00 am - 4:00 pm</i>
+                    <br><br><br><br><br><br>
+                </p>
+        </center>
+        </div>
+    </section>
+
+    <section id="events" style="background-color: white;">
+        <br>
+        <br>
+        <center>
+            <h2>FRONTEND MENTOR</h2>
+            <h3>Unlock And Elevate Your FrontEnd Skills</h3>
+            <div class="circle">
+                "Frontend Mentor Is An Exciting Event<br>
+                For Developers,<br>
+                Where They Need To Code<br>
+                A Given Web Design Page<br>
+                Using Html,Css And Javascript." </div>
+        </center>
+    </section><br><br>
+
+    <Hr>
+        
+    <section id="Register"></section>
+    <div class="form-container">
+        <div class="form-box">
+            <form action="/submit" method="POST">
+                <h2 class="form-title">REGISTER HERE:</h2>
+                <h3 class="form-subtitle">FILL THE FORM</h3><br>
+
+                <label for="name">NAME:</label><br><br>
+                <input type="text" id="name" name="name" class="input-line" required><br><br>
+
+                <label for="email">EMAIL:</label><br><br>
+                <input type="text" id="email" name="email" class="input-line" required><br><br>
+
+                <label for="Contact">CONTACT NUMBER:</label><br><br>
+                <input type="number" id="Contact" name="Contact" class="input-line" required><br><br>
+
+                <label for="college">COLLEGE:</label><br><br>
+                <input type="text" id="college" name="college" class="input-line" required><br><br>
+
+                <label for="dept">DEPT:</label><br><br>
+                <input type="text" id="dept" name="dept" class="input-line" required><br><br><br>
+
+                <label for="year">Year:</label><br>
+                <ul class="radio-list">
+                    <li><input type="radio" id="first-year" name="Year" value="1st year"><label for="first-year">1st
+                            year</label></li>
+                    <li><input type="radio" id="second-year" name="Year" value="2nd year"><label for="second-year">2nd
+                            year</label></li>
+                    <li><input type="radio" id="third-year" name="Year" value="3rd year"><label for="third-year">3rd
+                            year</label></li>
+                    <li><input type="radio" id="fourth-year" name="Year" value="4th year"><label for="fourth-year">4th
+                            year</label></li>
+                </ul><br>
+
+                <label for="gender">GENDER:</label><br>
+                <ul class="radio-list">
+                    <li><input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label></li>
+                    <li><input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+                    </li>
+                </ul><br>
+                <label for="dob">DOB:</label><br><br>
+                <input type="date" id="dob" name="dob" class="form-control" required><br><br><br>
+
+                <label for="skills">SKILLS:</label>
+                <ul class="radio-list">
+                    <li><input type="radio" name="skills" value="HTML"><label for="html">HTML</label></li>
+                    <li><input type="radio" name="skills" value="CSS"><label for="css">CSS</label></li>
+                    <li><input type="radio" name="skills" value="JavaScript"><label for="js">JavaScript</label></li>
+                </ul><br><br>
+
+                <label for="textarea1">WHY JOINING THIS EVENT?</label><br><br>
+                <textarea id="textarea1" cols="15" rows="5"
+                    placeholder="Reason For Joining This Event"></textarea><br><br>
+                <button type="submit" class="submit-btn">Submit</button><br><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
